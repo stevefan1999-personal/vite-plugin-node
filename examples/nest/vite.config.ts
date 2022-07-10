@@ -15,6 +15,12 @@ export default defineConfig({
     exclude: [
       '@nestjs/microservices',
       '@nestjs/websockets',
+      '@nestjs/typeorm',
+      '@nestjs/graphql',
+      '@nestjs/apollo',
+      'apollo-server-core',
+      'apollo-server-express',
+      'typeorm',
       'cache-manager',
       'class-transformer',
       'class-validator',
